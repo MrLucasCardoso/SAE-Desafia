@@ -107,3 +107,4 @@ venv.bak/
 Pipfile.lock
 *.ini
 .vscode/*
+src/node_modules/*

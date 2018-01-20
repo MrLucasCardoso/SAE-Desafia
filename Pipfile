@@ -16,6 +16,8 @@ django = "*"
 unipath = "*"
 python-decouple = "*"
 django-compressor = "*"
+django-webpack-loader = "*"
+djangorestframework = "*"
 
 
 [requires]

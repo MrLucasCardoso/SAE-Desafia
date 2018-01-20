@@ -1,5 +1,5 @@
 from decouple import config
-
+import os
 from .base import BASE_DIR, DEBUG
 
 
@@ -25,6 +25,13 @@ STATICFILES_DIRS = [
     BASE_DIR.child('frontend', 'static'),
     # BASE_DIR.child('frontend', 'bower_components'),
 ]
+
+WEBPACK_LOADER = {
+    'DEFAULT': {
+        'BUNDLE_DIR_NAME': 'bundles/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
+    }
+}
 
 # Static files finding engines
 STATICFILES_FINDERS = [
