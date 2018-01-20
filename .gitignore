@@ -108,3 +108,4 @@ Pipfile.lock
 *.ini
 .vscode/*
 src/node_modules/*
+src/package-lock.json
