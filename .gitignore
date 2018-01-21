@@ -109,3 +109,4 @@ Pipfile.lock
 .vscode/*
 src/node_modules/*
 src/package-lock.json
+src/webpack-stats.json
