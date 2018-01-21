@@ -40,7 +40,7 @@ export default class BooksList extends React.Component {
         
         return (
             <div>
-                <h1>Hello React!</h1>
+                <h1>Hello React with Lucas!</h1>
                 <ul>
                     {bookNodes}
                 </ul>
